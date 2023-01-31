@@ -1,0 +1,37 @@
+section {
+    color: $tertiary;
+    background-color: $secondary;
+    padding: 50px 0;
+
+    .label {
+        padding: 10px 30px;
+        background-color: $primary;
+        position: relative;
+        bottom: 60px;
+        font-size: 24px;
+        font-weight: 800;
+    }
+
+    .cards_box {
+        display: flex;
+        flex-wrap: wrap;
+
+        .card {
+            width: calc(100% / 6 - 40px);
+            margin: 0 20px;
+            margin-bottom: 30px;
+
+            figure {
+                height: 150px;
+                margin-bottom: 15px;
+                overflow: hidden;
+            }
+
+            span {
+                font-size: 18px;
+            }
+
+        }
+    }
+
+}
